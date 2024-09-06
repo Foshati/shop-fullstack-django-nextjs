@@ -1,0 +1,12 @@
+<li class="flex items-center space-x-2 {% if todo.completed %}line-through text-gray-500{% endif %}">
+    <input type="checkbox" 
+           {% if todo.completed %}checked{% endif %}
+           hx-post="{% url 'todo:toggle_todo' todo.pk %}"
+           hx-swap="outerHTML"
+           class="mr-2">
+    <span>{{ todo.title }}</span>
+    <button hx-delete="{% url 'todo:delete_todo' todo.pk %}"
+            hx-target="closest li"
+            hx-swap="outerHTML"
+            class="text-red-500 hover:text-red-700">حذف</button>
+</li>

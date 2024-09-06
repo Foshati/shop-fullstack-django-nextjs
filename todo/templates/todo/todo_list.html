@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1 class="text-3xl font-bold mb-4">لیست کارها</h1>
+
+  <form hx-post="{% url 'todo:add_todo' %}" hx-target="#todo-list" hx-swap="beforeend" class="mb-4">
+    {% csrf_token %}
+    <input type="text" name="title" placeholder="کار جدید" class="p-2 border rounded" />
+    <button type="submit" class="bg-blue-500 text-white p-2 rounded">افزودن</button>
+  </form>
+
+  <ul id="todo-list" class="space-y-2">
+    {% for todo in todos %}
+      {% include 'todo/todo_item.html' %}
+    {% endfor %}
+  </ul>
+{% endblock %}
