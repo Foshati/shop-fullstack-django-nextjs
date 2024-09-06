@@ -1,12 +1,17 @@
-<li class="flex items-center space-x-2 {% if todo.completed %}line-through text-gray-500{% endif %}">
-    <input type="checkbox" 
-           {% if todo.completed %}checked{% endif %}
-           hx-post="{% url 'todo:toggle_todo' todo.pk %}"
-           hx-swap="outerHTML"
-           class="mr-2">
-    <span>{{ todo.title }}</span>
-    <button hx-delete="{% url 'todo:delete_todo' todo.pk %}"
-            hx-target="closest li"
-            hx-swap="outerHTML"
-            class="text-red-500 hover:text-red-700">حذف</button>
-</li>
+<tr class="border-b {% if todo.completed %}line-through text-gray-500{% endif %}">
+    <td class="px-4 py-2">
+        <input type="checkbox" 
+               {% if todo.completed %}checked{% endif %}
+               hx-post="{% url 'todo:toggle_todo' todo.pk %}"
+               hx-swap="outerHTML"
+               class="checkbox">
+    </td>
+    <td class="px-4 py-2">{{ todo.title }}</td>
+    <td class="px-4 py-2">
+        <button hx-post="{% url 'todo:delete_todo' todo.pk %}"
+                hx-include="this"
+                hx-target="closest tr"
+                hx-swap="outerHTML"
+                class="btn btn-error btn-sm">Delete</button>
+    </td>
+</tr>

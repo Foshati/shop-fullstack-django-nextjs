@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from .models import Todo
 
@@ -17,7 +18,8 @@ def add_todo(request):
     return render(request, "todo/todo_item.html", {"todo": todo})
 
 
-@require_http_methods(["DELETE"])
+@csrf_exempt
+@require_http_methods(["POST"])
 def delete_todo(request, pk):
     todo = get_object_or_404(Todo, pk=pk)
     todo.delete()
