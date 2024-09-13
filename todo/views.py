@@ -25,9 +25,3 @@ def delete_todo(request, pk):
     todo.delete()
     return HttpResponse("")
 
-
-def toggle_todo(request, pk):
-    todo = get_object_or_404(Todo, pk=pk)
-    todo.completed = not todo.completed
-    todo.save()
-    return render(request, "todo/todo_item.html", {"todo": todo})
