@@ -25,7 +25,7 @@ const blogPosts = [
     excerpt: "Learn how to build modern web applications with Next.js and React.",
     date: "March 15, 2025",
     category: "Development",
-    imageUrl: "/placeholder.svg?height=200&width=400",
+    imageUrl: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const blogPosts = [
     excerpt: "Discover advanced techniques for building beautiful UIs with Tailwind CSS.",
     date: "March 10, 2025",
     category: "Design",
-    imageUrl: "/placeholder.svg?height=200&width=400",
+    imageUrl: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const blogPosts = [
     excerpt: "Exploring upcoming trends and technologies in web development.",
     date: "March 5, 2025",
     category: "Technology",
-    imageUrl: "/placeholder.svg?height=200&width=400",
+    imageUrl: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const blogPosts = [
     excerpt: "Best practices for creating inclusive and accessible web experiences.",
     date: "February 28, 2025",
     category: "Accessibility",
-    imageUrl: "/placeholder.svg?height=200&width=400",
+    imageUrl: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const blogPosts = [
     excerpt: "Comparing different state management solutions for React applications.",
     date: "February 20, 2025",
     category: "Development",
-    imageUrl: "/placeholder.svg?height=200&width=400",
+    imageUrl: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const blogPosts = [
     excerpt: "Techniques to improve loading times and overall performance of your website.",
     date: "February 15, 2025",
     category: "Performance",
-    imageUrl: "/placeholder.svg?height=200&width=400",
+    imageUrl: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
 ]
 

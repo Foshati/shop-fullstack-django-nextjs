@@ -22,7 +22,7 @@ const products = [
     category: "Bags",
     price: 89.99,
     rating: 4.5,
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const products = [
     category: "Electronics",
     price: 129.99,
     rating: 4.8,
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const products = [
     category: "Clothing",
     price: 24.99,
     rating: 4.2,
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const products = [
     category: "Footwear",
     price: 79.99,
     rating: 4.6,
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const products = [
     category: "Electronics",
     price: 199.99,
     rating: 4.7,
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const products = [
     category: "Clothing",
     price: 49.99,
     rating: 4.3,
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://foshati.storage.c2.liara.space/Nextpress.png",
   },
 ]
 

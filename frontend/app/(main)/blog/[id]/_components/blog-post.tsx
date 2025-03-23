@@ -60,10 +60,11 @@ export function BlogPost() {
         </CardHeader>
         <CardContent className=" space-y-6">
           <Image
-            src="/placeholder.svg?height=500&width=1000"
+            src="https://foshati.storage.c2.liara.space/Nextpress.png"
             alt="Blog cover image"
-            width={1000}
+            width={500}
             height={500}
+            
             className="rounded-lg object-cover w-full aspect-[2/1]"
           />
 

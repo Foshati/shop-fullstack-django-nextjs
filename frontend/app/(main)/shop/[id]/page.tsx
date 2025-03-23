@@ -22,7 +22,7 @@ export default function ProductPage() {
               </Button>
             </div>
             <Image
-              src="/placeholder.svg?height=600&width=600"
+              src="https://foshati.storage.c2.liara.space/Nextpress.png"
               alt="PlayStation 5 Slim Console"
               width={400}
               height={400}
@@ -39,7 +39,7 @@ export default function ProductPage() {
                   className={`border rounded-lg overflow-hidden min-w-[80px] cursor-pointer ${item === 1 ? "ring-2 ring-primary" : ""}`}
                 >
                   <Image
-                    src={`/placeholder.svg?height=80&width=80`}
+                    src={`https://foshati.storage.c2.liara.space/Nextpress.png`}
                     alt={`PlayStation 5 view ${item}`}
                     width={80}
                     height={80}
@@ -100,7 +100,7 @@ export default function ProductPage() {
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-2 text-sm text-muted-foreground border rounded-md px-3 py-1.5">
                 <Image
-                  src="/placeholder.svg?height=24&width=24"
+                  src="https://foshati.storage.c2.liara.space/Nextpress.png"
                   alt="Seller logo"
                   width={24}
                   height={24}

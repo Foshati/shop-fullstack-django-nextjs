@@ -36,7 +36,7 @@ const Gallery = ({
       summary:
         "Create stunning user interfaces with our comprehensive design system.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "https://foshati.storage.c2.liara.space/Nextpress.png",
     },
     {
       id: "item-2",
@@ -44,7 +44,7 @@ const Gallery = ({
       summary:
         "Powerful image recognition and processing capabilities that allow AI systems to analyze, understand, and interpret visual information from the world.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "https://foshati.storage.c2.liara.space/Nextpress.png",
     },
     {
       id: "item-3",
@@ -52,7 +52,7 @@ const Gallery = ({
       summary:
         "Self-improving algorithms that learn from data patterns to automate complex tasks and make intelligent decisions with minimal human intervention.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "https://foshati.storage.c2.liara.space/Nextpress.png",
     },
     {
       id: "item-4",
@@ -60,7 +60,7 @@ const Gallery = ({
       summary:
         "Advanced forecasting capabilities that analyze historical data to predict future trends and outcomes, helping businesses make data-driven decisions.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "https://foshati.storage.c2.liara.space/Nextpress.png",
     },
     {
       id: "item-5",
@@ -68,7 +68,7 @@ const Gallery = ({
       summary:
         "Sophisticated AI models inspired by human brain structure, capable of solving complex problems through deep learning and pattern recognition.",
       url: "#",
-      image: "https://shadcnblocks.com/images/block/placeholder-dark-1.svg",
+      image: "https://foshati.storage.c2.liara.space/Nextpress.png",
     },
   ],
 }: Gallery6Props) => {
